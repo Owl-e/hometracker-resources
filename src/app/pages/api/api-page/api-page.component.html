@@ -1,0 +1,7 @@
+<h1>HomeTracker Application</h1>
+<button color="accent" mat-button>Download Server</button>
+<button color="primary" mat-raised-button>Download API</button>
+
+<div *ngIf="versions">
+    <p *ngFor="let version of versions">{{ version }}</p>
+</div>
